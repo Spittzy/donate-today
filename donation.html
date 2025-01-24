@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header id="header" class="fixed-top header-scrolled mb-2">
+        <nav class="navbar bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/freepik__background__20514.png" alt="Logo" width="40" height="40"
+                        class="d-inline-block align-text-top">
+                    Donate
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="donation.html">Donate Today</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <!--Welcome-->
+    <div class="container text-center mt-5"> ">
+
+        <div class="row text-center">
+            <div class="col-md-12 mt-5">
+                <h1>Donate Today</h1>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-12">
+                <p>Fill out the form below to donate to our cause. Thank you for your support!
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--Form-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+
+            <div class="col-sm-6">
+
+
+                <form class="bg-body-secondary p-2">
+                    <div class="mb-3">
+                        <label for="firstname" class="form-label">First Name</label>
+                        <input type="firstname" class="form-control" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
+
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="lastname" class="form-label">Last Name</label>
+                        <input type="lastname" class="form-control" id="lastname">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+
+
+
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">$</span>
+                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+
+                    </div>
+                    <h4>We want to thank you</h4>
+                    <p>Let's use shout you out for your donation</p>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            I want a shouted out
+                        </label>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                    </div>
+            </div>
+
+
+            <div class="col-md-3">
+            </div>
+
+        </div>
+
+        <div class="row text-center mb-5">
+            <div class="col-md-12 mt-5">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+
+
+
+            <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
